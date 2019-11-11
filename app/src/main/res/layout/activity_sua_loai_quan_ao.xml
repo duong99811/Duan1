@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaLoaiQuanAoActivity">
+
+    <EditText
+        android:id="@+id/edSuaMaLoaiQuanAo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã loại quần áo" />
+
+    <EditText
+        android:id="@+id/edSuaTenLoaiQuanAo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên loại quần áo" />
+
+    <EditText
+        android:id="@+id/edSuaHangQuanAo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng quần áo" />
+
+    <EditText
+        android:id="@+id/edSuaMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả" />
+
+    <Button
+        android:id="@+id/btnSuaLoaiQuanAo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SuaLoaiQuanAo"
+        android:text="Sửa" />
+</LinearLayout>
